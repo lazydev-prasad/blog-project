@@ -1,11 +1,15 @@
-.top-bar > span {
+.top-bar{
+    background-color: $voilet-dark;
+    color: white;
+    margin-top: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-nav li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;
     padding-left: 5px;
 }
-span.links {
-    padding-right: 10px;
-}
-
-span.border-right {
-    border-right: 1px solid #dfdfdf;
-}
-

@@ -2,7 +2,9 @@ $icon-font-path: '../fonts/';
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
+@import "_colors";
 @import "_links";
 
 .browserupgrade {
@@ -92,3 +94,13 @@ body {
     border-bottom: 0;
   }
 }
+
+
+/*------------------------------------------------
+ * User Styles
+ *----------------------------------------------*/
+ul {
+    text-decoration: none;
+}
+
+
